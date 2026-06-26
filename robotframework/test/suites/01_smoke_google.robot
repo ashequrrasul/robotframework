@@ -6,5 +6,5 @@ Suite Teardown  Close Browser Session
 *** Test Cases ***
 Google Homepage Loads
     ${title}=    Get Title
-    Should Contain    ${title}    Google
+    Should Contain    ${title}    Google!
     Capture Screenshot    google_home
